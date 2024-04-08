@@ -2,6 +2,6 @@
 x = (0, 'j', 1, 2, 3, 4, 5, 7, 8, 9)
 x=list(x)
 print(x)
-x.remove(2)
+x.remove('j')
 x = tuple(x)
 print(x)

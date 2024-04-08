@@ -2,5 +2,4 @@
 x = (1, "JAYANT",80.5)
 #print(tuplex)
 print(x)
-tuplex = tuple
-print(tuplex)
+#tuplex = tuple
