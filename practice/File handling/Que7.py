@@ -1,7 +1,7 @@
 ''' Write a python program to find the longest words. '''
 ab = open('long.txt','r')
-#ab.write("'hfiwfifu','jayant','piyush','hquihguiieurig'")
+#ab.write("ciwuciuh wie wecweoo")
 read = ab.readline()
-print(read)
-print(ab)
+bc = read.split()
+print(max(bc, key=len))
 ab.close()

@@ -11,5 +11,4 @@ x = int(input("enter the age :"))
 if x <= 2:
     print(x*10.5)
 if x > 2:
-    print(x*4)
-    
+    print((2*10.5)+(x-2)*(4))

@@ -8,4 +8,3 @@ Expected Result : Empty String
 '''
 x = "jayant kumar"
 print(x[0:2] + x[-2:])
-

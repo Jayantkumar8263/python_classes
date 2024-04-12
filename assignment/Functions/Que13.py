@@ -3,7 +3,7 @@ Note : Pascal's triangle is an arithmetic and geometric figure first imagined by
 '''
 def pascal_triangle():
     
-    for i in range(5):
+    for i in range(10):
         a = 1
         for j in range(0,  i + 1): 
             print(a, end=" ")
