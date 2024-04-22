@@ -10,5 +10,4 @@ b = 1
 for i in d :
     a*= i
     b*= d[i]
-print(a, ':', b)
-    
+print(a, ':', b)   

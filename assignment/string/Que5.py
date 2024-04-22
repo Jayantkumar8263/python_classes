@@ -2,3 +2,9 @@
 Sample String : 'abc', 'xyz'
 Expected Result : 'xyc abz'
 '''
+x = ('jayant kumar')
+ 
+y = x.replace("jay", "kum") 
+z = x.replace("kum", "jay")
+print("the replacedstring wil be :",y)
+print("the replacedstring wil be :",z)

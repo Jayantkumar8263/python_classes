@@ -2,4 +2,4 @@
 Sample String : 'restart'
 Expected Result : 'resta$t 
 '''
-x = ("i am a man whose age is 19 years.")
+x = input("Enter a string :")
