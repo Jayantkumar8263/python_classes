@@ -1,13 +1,12 @@
 ''' Write a Python function that takes a number as a parameter and checks whether the number is prime or not. '''
-def prime(n):
-    if (n == 1):
-        return False
-    elif (n == 2):
-        return True
+def abc():
+    x = int(input("Enter a number :"))
+    if x == 1 or x == 2:
+        print("it is a prime number")
     else:
-        for x in range(2, n):
-            if (n % x == 0):
-                return False
-        return True
-
-print(prime(71)) 
+        for i in range(2, x):
+            if x % i == 0:
+                print("it is not a prime number")
+                break
+        print("it is a prime number")
+abc()

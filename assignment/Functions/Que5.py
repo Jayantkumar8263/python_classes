@@ -5,5 +5,6 @@ def abc(a):
         #print(i)
         c*= i
     print(c)
+    
 x = int(input("Enter a number :"))
-abc(x) 
+abc(x)
