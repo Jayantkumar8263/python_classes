@@ -1,5 +1,5 @@
 '''Write a  Python script that takes input from the user and displays that input back in upper and lower cases'''
 
-x = "jayant kumar"
-a = x.uppercase
-print(a)
+x = input("Enter a string :")
+print(x.upper())
+print(x.lower())
