@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect
 #from django.http import HttpResponse
-from web_app.models import details
+from web_one_new_app.models import details
 # Create your views here.
 
 
@@ -18,4 +18,4 @@ def home(request):
             return redirect('home')
                 
             
-    return render(request, 'index.html', {'key' : data})
+    return render(request, 'home1.html', {'key' : data})

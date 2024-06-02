@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect
 #from django.http import HttpResponse
-from web_app.models import details
+from trained_app.models import details
 # Create your views here.
 
 
@@ -18,4 +18,10 @@ def home(request):
             return redirect('home')
                 
             
-    return render(request, 'index.html', {'key' : data})
+    return render(request, 'index2.html', {'key' : data})
+
+
+def delete_data(request , id):
+    data = details.objects.get(pk = id)
+    data.delete()
+    return redirect('home')
