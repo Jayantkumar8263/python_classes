@@ -1,7 +1,8 @@
 from django.urls import path
-from trained_app.views import home, delete_data
+from trained_app.views import home, delete_data,update_data
 
 urlpatterns = [
     path('', home, name = 'home'),
-    path('Del/<int:Id>', delete_data, name= 'deleate'),
+    path('del/<int:id>', delete_data, name= 'delete'),
+    path('update/<int:id>', update_data, name = 'update'),
 ]
