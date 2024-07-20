@@ -1,8 +1,10 @@
-''' Write a Python program to count the number of items in a dictionary value that is a list '''
-d = {
-    'red' : 1,
-    'blue' : 2,
-    'green' :3,
+''' Write a Python program to get the top three items in a shop.'''
+
+d = {'item1': 45.50,
+     'item2':35,
+     'item3': 41.30,
+     'item4':55,
+     'item5': 24
 }
 
-print(len(d.items()))
+print(d.items())

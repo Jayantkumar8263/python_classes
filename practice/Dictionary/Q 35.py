@@ -6,5 +6,5 @@ d = {
     'green' :3,
 }
 
-for i in sorted(d):
-    print(d)
+#for i in sorted(d):
+print(d.values())
