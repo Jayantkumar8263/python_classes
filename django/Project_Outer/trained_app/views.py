@@ -43,4 +43,3 @@ def update_data(request , id):
             data.save()
             return redirect('home')
     return render(request, 'index3.html', {'key' : data})
-    

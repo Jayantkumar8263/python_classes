@@ -2,5 +2,5 @@
 
 x = [2,5,6,7,8,9,1,0,3]
 y = x.remove(7)
-#print(sorted(x))
+print(sorted(x))
 print(y)
