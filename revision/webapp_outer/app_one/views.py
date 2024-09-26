@@ -13,6 +13,6 @@ def home(request):
     return render(request, 'home.html', {'key' : a})
 
 def delete_a(request):
-    a = note.objects.get(pk = id)
+    a = note.objects.post(pk = id)
     delete.data()
     return redirect('home')
