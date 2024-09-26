@@ -12,7 +12,20 @@ def home(request):
             return redirect('home')
     return render(request, 'home.html', {'key' : a})
 
-def delete_a(request):
-    a = note.objects.post(pk = id)
-    delete.data()
+def delete_a(request, id):
+    a = note.objects.get(pk = id)
+    a.delete()
     return redirect('home')
+
+def upd_a(request, id):
+    a = note.objects.get(pk = id)
+    if request.method == 'POST':
+        name = request.POST.get('name')
+        email = request.POST.get('email')
+        if name :
+            a.name = name
+            a.email = email
+            a.save()
+            return redirect('home')
+        
+    return render(request, 'update.html', {'key' : a})
